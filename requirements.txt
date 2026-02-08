@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+google-generativeai
+python-multipart
+aiofiles
+redis
+asyncpg
+sqlalchemy
+python-dotenv
+boto3
+Pillow
+opencv-python
+pydantic
