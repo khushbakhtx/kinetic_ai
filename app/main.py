@@ -13,7 +13,7 @@ app = FastAPI(title="Reality Debugger API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        os.getenv("FRONTEND_URL", "http://localhost:3000")
+        os.getenv("FRONTEND_URL", "https://kinetic-ai-ui.vercel.app")
     ],
     allow_credentials=True,
     allow_methods=["*"],
